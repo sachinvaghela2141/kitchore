@@ -1,318 +1,312 @@
-/* .br {
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-style: arial;
+
+}
+
+.red {
     border: 2px solid red;
 }
 
-.blu {
-    border: 2px solid blue;
+.gold {
+    border: 3px solid gold;
 }
 
-.bg {
-    border: 2px solid gold;
+.blue {
+    border: 3px solid blue;
 }
 
-.blk {
-    border: 2px solid black;
+.grey {
+    border: 3px solid grey;
 }
 
-.bgr {
-    border: 2px solid green;
+.green {
+    border: 3px solid green;
 }
 
-.bo {
-    border: 4px solid orangered;
-} */
-
-.h-120 {
-
-    min-height: 100vh;
+.black {
+    border: 3px solid black;
 }
 
-.h-100vh {
-    min-height: 100vh;
-}
-.h-900px{
-    min-height: 900px;
+.container-fluid {
+    overflow: hidden;
 }
 
-.h-600px {
-    min-height: 600px;
+/* background-color */
+
+.navbar {
+    min-height: 170px;
+    /* border: 5px solid gold; */
+    background-color: rgba(28, 45, 55, 255);
+
 }
 
-.h-800 {
+.logo-section {
+    /* border: 3px solid red; */
+    /* width: 40%; */
 
-    min-height: 800px;
 }
 
-.h-700px {
+.logo-top img {
+    height: 90px;
 
+
+}
+
+.carousel {
+    /* border: 3px solid red; */
     min-height: 700px;
-}
-.h-550px{
-    min-height: 550px;
-}
-.h-500px {
-    min-height: 500px;
-}
-
-.h-400px {
-    min-height: 400px;
-}
-
-.h-300px {
-    min-height: 300px;
-}
-
-.h-200px {
-    min-height: 200px;
-}
-
-.h-150px {
-    min-height: 150px;
-}
-
-.h-100px {
-    min-height: 100px;
-}
-
-.h-60px {
-   min-height: 60px;
-}
-
-.h-50px {
-    min-height: 50px;
-}
-
-.h-55px {
-    min-height: 55px;
-}
-
-.in {
-    font-size: 50px;
-    color: white;
-    width: 35%;
-    text-align: center;
-
 
 }
 
-.ai {
-    color: white;
-    font-size: 20px;
-    width: 30%;
-    text-align: center;
+.home-1 {
 
-
-
-}
-
-
-
-/* ---------------------right-nav------------------------ */
-.right-nav h1 {
-    font-size: 17px;
-    color: silver;
-    font-weight: 100;
-}
-
-.right-2 h2 {
-
-    font-size: 17px;
-    font-weight: 100;
-    color: silver;
-}
-
-.right-3 button {
-    height: 100%;
-
-
-}
-
-.ba {
     background: url(home-1.jpg);
-}
-
-.ba-1 {
-
-    background: url(chair-design-1.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.ba-2 {
-    background: url(kitchen-in.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.ba-3 {
-    background: url(kitchen-2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.ba-4 {
-    background: url(kitchen-3.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.bgc {
-    background-color: rgba(0, 0, 0, 0.733);
-}
-
-.cards-section {
-    width: 100%;
-    /* border: 5px solid red; */
-    min-height: 450px;
-}
-
-.four-section {
     min-height: 100vh;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.733);
-
-
-}
-
-.four {
-    /* border: 5px solid green; */
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(46, 46, 46, 0.4);
-}
-
-.card-one {
-    /* border: 4px solid gold; */
-    min-height: 440px;
-}
-
-
-
-
-/* last-section */
-.last-section {
-    /* border: 5px solid greenyellow; */
-    min-height: 100vh;
-    width: 100%;
-}
-
-.card-section {
-    /* border: 4px solid firebrick; */
-    width: 100%;
-    min-height: 500px;
-}
-
-.crd-1 {
-    min-height: 420px;
-}
-
-/* five-section --------------------------*/
-.five-section {
-
-
-
-    /* border: 5px solid red; */
-    min-height: 100vh;
-    width: 100%;
-
-
-
-}
-
-.container-5 {
-
-    min-height: 80vh;
-    /* border: 2px solid gray; */
-    width: 95%;
-    background: url(modern-kitchen-interior-white-colors.jpg);
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover !important;
+    min-width: 100%;
+    background-size: cover;
+}
 
-    filter: grayscale(.6);
+.home-2 {
+
+    background: url(home-2.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    background-size: cover;
+}
+
+.home-3 {
+
+    background: url(blog-s-1-2-636x440.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    background-size: cover;
+}
+
+
+.text-1 span {
+    /* border: 4px solid blue; */
 
 }
 
-.card-left {
-
-    min-height: 80vh;
-    width: 50%;
-
-
+.text-2 h1 {
+    font-size: 70px;
+    width: 60%;
 
 }
 
-.card-left button {
-
-    padding: 10px 30px;
-    border: none;
-    border-radius: 25px;
-
-}
-
-.card-right {
-
-    min-height: 80vh;
-    width: 50%;
-
+.first-section {
+    background-color: rgba(192, 205, 209, 255) !important;
+    min-height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
 
+}
 
+.first-card {
+    min-height: 250px;
+    /* border: 3px solid black; */
+}
+
+.card-1 {
+    min-height: 250px;
+    /* border: 3px solid red; */
 
 }
 
-.card-right img {
-
-    height: 400px;
-
+/* -------- second-section ---------------- */
+.second-section {
+    min-height: 90vh;
+    background-color: rgba(28, 45, 55, 255);
+    /* border: 2px solid red; */
 }
-.card-1{
-background: url(kitchen-t-1.jpeg);
-background-size: cover;
 
+.second-section-card {
+
+    min-height: 200px;
+    /* border: 3px solid gold; */
 }
-.card-2{
-    background: url(kitchen-t-2.jpeg);
+
+.second-left {
+    /* border: 3px solid white; */
+    min-height: 180px;
+}
+
+.second-right {
+    /* border: 3px solid white; */
+    min-height: 180px;
+}
+
+/*-------------------- bottom-------------- */
+.second-bottom {
+    min-height: 450px;
+    /* border: 3px solid red; */
+}
+
+.left-bottom {
+    /* border: 3px solid gold; */
+    min-height: 320px;
+
+    background: url(home-1.jpg);
     background-size: cover;
+
+}
+
+.right-bottom {
+    /* border: 3px solid blueviolet; */
+    min-height: 320px;
+    background: url(home-2.jpg);
+    background-size: cover;
+
+}
+
+/* ----------------third-section-------------- */
+
+.third-section {
+    min-height: 45vh;
+    background-color: rgba(28, 45, 55, 255);
+
+
+}
+
+.third-card {
+    /* border: 3px solid red; */
+    min-height: 250px;
+}
+
+.third-left {
+    /* border: 3px solid red; */
+    min-height: 300px;
+}
+
+.third-right {
+    /* border: 3px solid orange; */
+    min-height: 300px;
+}
+
+
+/* fourth-card */
+.fourth-section {
+
+
+    min-height: 50vh;
+    background-color: rgba(28, 45, 55, 255);
+
+}
+
+.fourth-card-section {
+    /* border: 3px solid gold; */
+    min-height: 350px;
+
+}
+
+.fourth-cards {
+    min-height: 350px;
+}
+
+/* -----------------five-section--------------- */
+
+.five-section {
+
+    min-height: 90vh;
+    background-color: rgba(28, 45, 55, 255);
+    background: url(home-4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+}
+
+.five-card-section {
+
+    min-height: 70vh;
+
+}
+
+.five-left-section {
+    min-height: 70vh;
+
+
+}
+
+.five-right-section {
+    min-height: 90vh;
+
+}
+
+/* -----------------------six-container------------------------ */
+
+.six-section {
+
+    min-height: 280px;
+    /* border: 2px solid teal; */
+    background-color: rgba(28, 45, 55, 255);
+
+
+
+}
+
+.six-left-text {
+
+    height: 280px;
+}
+
+.six-right-text {
+
+    height: 280px;
+}
+
+/* ---------------seven-section--------------------- */
+
+.seven-section {
+    min-height: ;
+    /* border: 3px solid red; */
+    background-color: rgba(28, 45, 55, 255);
+    gap: 50px !important;
     
 
 }
 
-.card-3{
-    background: url(kitchen-t-3.jpeg);
-    background-size: cover;
+.seven-left {
+
+    /* border: 2px solid gold; */
+    height: 60vh;
+
     
+    
+}
+
+.seven-right {
+
+    /* border: 2px solid blue; */
+    height: 60vh;
 
 
 }
 
-.card-4{
-    background: url(kitchen-t-4.jpeg);
-    background-size: cover;
-    
+/*----------------------------------- eight-section------------------------------- */
 
-}
-.card-5{
-
-    background: url(kitchen-t-5.jpeg);
-    background-size: cover;
-    
-}
-.card-6{
-
-    background: url(kitchen-t-6.jpeg);
-    background-size: cover;
-    
-}
-
-
-.thirteen-section {
+.eight-section{
     min-height: 100vh;
+    border: 3px solid red;
+    background-color: rgba(192,205,209,255);
+    
+}
+.eight-card{
+
+    
+ min-height: 230px;
+ display: flex;
+
+
+
+
 }
 
